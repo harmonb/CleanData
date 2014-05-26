@@ -1,0 +1,77 @@
+Codebook for merged_train_test_data.txt and Suject_Activity_Means.txt
+
+This file explains what each of the variables are in the merged_train_test_data.txt and the Subject_Activity_Means.txt files.
+
+Subjects - A unique identifier for each individual participating in the study.
+activity_code - 1: Walking; 2: Walking Upstairs; 3: Walking Downstairs; 4: Sitting; 5: Standing; 6: Laying
+tBodyAcc-mean()-X - Mean of the total body acceleration in the x-axis
+tBodyAcc-mean()-Y - Mean of the total body acceleration in the y-axis
+tBodyAcc-mean()-Z - Mean of the total body acceleration in the z-axis
+tBodyAcc-std()-X - Standard deviation of the total body acceleration in the x-axis
+tBodyAcc-std()-Y - Standard deviation of the total body acceleration in the y-axis
+tBodyAcc-std()-Z - Standard deviation of the total body acceleration in the z-axis 
+tGravityAcc-mean()-X - Mean of the total gravity acceleration in the x-axis
+tGravityAcc-mean()-Y - Mean of the total gravity acceleration in the y-axis
+tGravityAcc-mean()-Z - Mean of the total gravity acceleration in the z-axis
+tGravityAcc-std()-X - Standard deviation of the total gravity acceleration in the x-axis
+tGravityAcc-std()-Y - Standard deviation of the total gravity acceleration in the y-axis
+tGravityAcc-std()-Z - Standard deviation of the total gravity acceleration in the z-axis
+tBodyAccJerk-mean()-X - Mean of the the total body acceleration jerk in the x-axis 
+tBodyAccJerk-mean()-Y - Mean of the the total body acceleration jerk in the y-axis
+tBodyAccJerk-mean()-Z - Mean of the the total body acceleration jerk in the z-axis
+tBodyAccJerk-std()-X - Standard deviaton of the total body acceleration jerk in the x-axis
+tBodyAccJerk-std()-Y - Standard deviaton of the total body acceleration jerk in the y-axis
+tBodyAccJerk-std()-Z - Standard deviaton of the total body acceleration jerk in the z-axis
+tBodyGyro-mean()-X - Mean of the total body gyroscope measurement in the x-axis
+tBodyGyro-mean()-Y - Mean of the total body gyroscope measurement in the y-axis
+tBodyGyro-mean()-Z - Mean of the total body gyroscope measurement in the z-axis
+tBodyGyro-std()-X - Standard deviation of the total body gyroscope measurement in the x-axis
+tBodyGyro-std()-Y - Standard deviation of the total body gyroscope measurement in the y-axis
+tBodyGyro-std()-Z - Standard deviation of the total body gyroscope measurement in the z-axis
+tBodyGyroJerk-mean()-X - Mean of the total body gyroscope jerk measurement in the x-axis
+tBodyGyroJerk-mean()-Y - Mean of the total body gyroscope jerk measurement in the y-axis
+tBodyGyroJerk-mean()-Z - Mean of the total body gyroscope jerk measurement in the z-axis
+tBodyGyroJerk-std()-X - Standard deviation of the total body gyroscope jerk measurement in the x-axis
+tBodyGyroJerk-std()-Y - Standard deviation of the total body gyroscope jerk measurement in the y-axis
+tBodyGyroJerk-std()-Z - Standard deviation of the total body gyroscope jerk measurement in the z-axis
+tBodyAccMag-mean() - Mean of the magnitude of the total body acceleration 
+tBodyAccMag-std() - Standard deviation of the magnitude of the total body acceleration 
+tGravityAccMag-mean() - Mean of the magnitude of the total gravity acceleration 
+tGravityAccMag-std() - Standard deviation of the magnitude of the total gravity acceleration
+tBodyAccJerkMag-mean() - Mean of the magnitude of the total body jerk acceleration
+tBodyAccJerkMag-std() - Standard deviation of the magnitude of the total body jerk acceleration
+tBodyGyroMag-mean() - Mean of the magnitude of the total body gyroscope measurement
+tBodyGyroMag-std() - Standard deviation of the magnitude of the total body gyroscope measurement
+tBodyGyroJerkMag-mean() - Mean of the magnitude of the total body gyroscope jerk measurement
+tBodyGyroJerkMag-std() - Standard deviation of the magnitude of the total body gyroscope jerk measurement
+fBodyAcc-mean()-X - Mean of the filtered body acceleration in the x-axis
+fBodyAcc-mean()-Y - Mean of the filtered body acceleration in the y-axis
+fBodyAcc-mean()-Z - Mean of the filtered body acceleration in the z-axis
+fBodyAcc-std()-X - Standard deviation of the filtered body acceleration in the x-axis
+fBodyAcc-std()-Y - Standard deviation of the filtered body acceleration in the y-axis
+fBodyAcc-std()-Z - Standard deviation of the filtered body acceleration in the z-axis
+fBodyAccJerk-mean()-X - Mean of the filtered body jerk acceleration in the x-axis 
+fBodyAccJerk-mean()-Y - Mean of the filtered body jerk acceleration in the y-axis
+fBodyAccJerk-mean()-Z - Mean of the filtered body jerk acceleration in the z-axis
+fBodyAccJerk-std()-X - Standard deviation of the filtered body jerk acceleration in the x-axis
+fBodyAccJerk-std()-Y - Standard deviation of the filtered body jerk acceleration in the y-axis
+fBodyAccJerk-std()-Z - Standard deviation of the filtered body jerk acceleration in the z-axis
+fBodyGyro-mean()-X - Mean of the filtered body gyroscope measurement in the x-axis 
+fBodyGyro-mean()-Y - Mean of the filtered body gyroscope measurement in the y-axis
+fBodyGyro-mean()-Z - Mean of the filtered body gyroscope measurement in the z-axis
+fBodyGyro-std()-X - Standard deviation of the filtered body gyroscope measurement in the x-axis
+fBodyGyro-std()-Y - Standard deviation of the filtered body gyroscope measurement in the y-axis
+fBodyGyro-std()-Z - Standard deviation of the filtered body gyroscope measurement in the z-axis
+fBodyAccMag-mean() - Mean of the magnitude of the filtered body acceleration
+fBodyAccMag-std() - Standard deviation of the magnitude of the filtered body acceleration
+fBodyBodyAccJerkMag-mean() - Mean of the magnitude of the filtered body jerk acceleration
+fBodyBodyAccJerkMag-std() - Standard deviation of the magnitude of the filtered body jerk acceleration
+fBodyBodyGyroMag-mean() - Mean of the magnitude of the filtered body gyroscope measurement
+fBodyBodyGyroMag-std() - Standard deviation of the magnitude of the filtered body gyroscope measurement
+fBodyBodyGyroJerkMag-mean() - Mean of the magnitude of the filtered gyroscope jerk measurement
+fBodyBodyGyroJerkMag-std() - Standard deviation of the magnitude of the filtered gyroscope jerk measurement
+activity_Label - A text label corresponding to acitivity_Label
+
+
+More information about the study can be found at:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
